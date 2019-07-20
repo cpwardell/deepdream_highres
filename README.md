@@ -1,10 +1,12 @@
 # Highres Deepdream 
 
+This is a fork of mtyka/deepdream_highres; thanks to the original author.  I updated the code to run under Python3 and also fixed a bug in tffunc().  Also, I commented out printing the list of available layers/features.
+
 The size/resolution limitation of the original deepdream Caffe implementation made deep dreaming large photos tricky. However, the [offical Google Deepdream example that comes with Tensorflow](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/deepdream/deepdream.ipynb) by Alex Mordvintsev, doesnt suffer from those limitations. However it only came as a IPython notebook, so here's a little commandline app based on Alex's notebook for just applying deepdream to large images in bulk. 
 
 Install Requirements:
 
-- Python 2.7
+- Python3
 - TensorFlow (>=r0.7)
 - NumPy
 
